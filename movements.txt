@@ -27,3 +27,9 @@ you can move to the next or previous sentence with '(' and ')'
 
 gg is start of file, G is end of file
 
+
+Where to go next
+----------------
+
+:q! to exit
+:edit commands.txt
