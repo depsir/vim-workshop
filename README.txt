@@ -16,3 +16,5 @@ Where to go next
 
 :q! to exit
 :edit movements.txt
+
+NOTE: if you are not seeing this in vim, start next session with `vim movements.txt`
