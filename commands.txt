@@ -1,4 +1,25 @@
 Commands
 --------
 
+Movements can also be used in combination with commands
+
+d is the command to cut text.
+use dw to cut to the next beginning of word, d$ to cut to the end of line, dG to delete to end of file.
+
+u to undo, <ctrl>+r to redo
+
+p to paste after cursor, P to paste before cursor
+y plus movement to yank (copy) text
+
+doubling the letter acts on the entire line (dd or yy)
+
+you can also repeat a command n times, try 3dw
+
+. repeats last command
+
+Where to go next
+----------------
+
+:q! to exit
+:edit insert-mode.txt
 
