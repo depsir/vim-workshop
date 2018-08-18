@@ -1,24 +1,59 @@
 Commands
---------
+========
 
-Movements can also be used in combination with commands
+Single key commands
+-------------------
 
-d is the command to cut text.
-use dw to cut to the next beginning of word, d$ to cut to the end of line, dG to delete to end of file.
+x cuts char under cursor
+X cuts char before cursor
 
 u to undo, <ctrl>+r to redo
-
 p to paste after cursor, P to paste before cursor
+~ toggle case
+
+Commands with movements
+-----------------------
+Movements can also be used in combination with commands
+
+d plus movement to cut text.
 y plus movement to yank (copy) text
+use dw to cut to the next beginning of word, d$ to cut to the end of line, dG to delete to end of file.
 
 doubling the letter acts on the entire line (dd or yy)
 
+Repeating commands
+------------------
 you can also repeat a command n times, try 3dw
 
 . repeats last command
 
+Text objects
+------------
+
+Vim knows about text structure and can interact with some parts
+through some special "movements" called text objects 
+
+i" acts inside quoted text
+i( acts upon text inside brackets
+a" acts like i" but include quotes
+a( acts like i( but include brackets
+
+other text objects, prefixed by i or a, are 
+w word
+{ curly brackets
+t xml tag
+
+Takeaways
+=========
+      ------------------------------------------------------------
+      | Knowing few basic rules and how to combine them          |
+------| thanks to vim consistency, makes commands easy to        |------
+\     | remember and invent                                      |    /
+ /    ------------------------------------------------------------    \
+/______\|                                                      |/______\
+
 Where to go next
-----------------
+================
 
 :q! to exit
 :edit insert-mode.txt
