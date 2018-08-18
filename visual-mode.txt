@@ -1,0 +1,30 @@
+Visual mode
+===========
+
+Visual mode enables you to select text
+
+Enter visual mode with
+v for visual mode
+V for visual line mode
+ctrl-v for visual block mode
+gv reselects last selection
+
+When in visual mode, commands act differently from normal mode.
+o changes selection side
+
+Try d, y, I (block mode), r
+
+Takeaways
+=========
+      ------------------------------------------------------------
+      | There are fine grained ways to enter insert mode.        |
+------| Pick the best tool for the job.                          |------
+\     |                                                          |    /
+ /    ------------------------------------------------------------    \
+/______\|                                                      |/______\
+
+Where to go next
+================
+
+:q! to exit
+:edit ex-commands.txt
