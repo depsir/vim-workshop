@@ -1,4 +1,32 @@
 Insert mode
------------
+===========
 
+To insert text you must switch to insert mode. esc key brings you back to normal mode
 
+You can switch to insert mode in few ways
+
+i starts before cursor
+a starts after cursor
+I starts at the beginning of the line
+A starts at the end of the line
+o starts on a new line after current
+O starts on a new line before current
+
+c (change) accepts a movement, cuts the text like d but enters insert mode 
+
+u and . takes inserted text up to esc key as a single block
+
+Takeaways
+=========
+      ------------------------------------------------------------
+      | There are fine grained ways to enter insert mode.        |
+------| Pick the best tool for the job.                          |------
+\     |                                                          |    /
+ /    ------------------------------------------------------------    \
+/______\|                                                      |/______\
+
+Where to go next
+================
+
+:q! to exit
+:edit visual-mode.txt
