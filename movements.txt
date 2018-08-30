@@ -22,7 +22,7 @@ Line
 -------
 with f follwed by a character, you go to the next occurrence of such character in same line
 
-0 start of line, $ end of line
+    0 start of line, $ end of line
 
 Blocks
 ------
