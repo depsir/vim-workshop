@@ -7,6 +7,7 @@ In vim there is no mouse at all, commands and scriptability are built in.
 
 Why this tutorial
 =================
+Vim is different from other editors you tried. Be open minded and try to learn the vim way.
 The purpose is to get you up an running as quick as possible so that you can start using vim.
 You will learn vim by using it and searching what you need.
 
