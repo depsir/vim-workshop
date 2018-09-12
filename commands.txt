@@ -57,4 +57,3 @@ Where to go next
 
 :q! to exit
 :edit insert-mode.txt
-

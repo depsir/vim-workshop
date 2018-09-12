@@ -21,7 +21,7 @@ Takeaways
       ------------------------------------------------------------
       | There are fine grained ways to enter insert mode.        |
 ------| Pick the best tool for the job.                          |------
-\     |                                                          |    /
+\     | Stay in insert mode only when needed.                    |    /
  /    ------------------------------------------------------------    \
 /______\|                                                      |/______\
 

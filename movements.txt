@@ -1,7 +1,7 @@
 Movements
 =========
 
-From small to wide
+With no mouse, we need more control on cursor movements, to put it where we need.
 
 Characters
 ----------
@@ -20,9 +20,9 @@ Words
 
 Line
 -------
-with f follwed by a character, you go to the next occurrence of such character in same line
-
     0 start of line, $ end of line
+
+with f follwed by a character, you go to the next occurrence of such character in same line
 
 Blocks
 ------
@@ -31,8 +31,8 @@ you can move to the next or previous sentence with '(' and ')'
 
 File
 -------
+<number>G go to line <number>
 /pattern<enter> searches for that pattern (? instead of / to search backwards)
-
 gg is start of file, G is end of file
 
 Takeaways

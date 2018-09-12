@@ -1,4 +1,8 @@
-Why vim
+Vim
+=======
+Vim is a text editor
+
+Why Vim
 =======
 It adeheres to my way of working. 
 When I learn a new text editor (or software in general) I like to learn keyboard shortcuts because they are quicker and give me a sense of power and prowess.
@@ -10,6 +14,7 @@ Why this tutorial
 Vim is different from other editors you tried. Be open minded and try to learn the vim way.
 The purpose is to get you up an running as quick as possible so that you can start using vim.
 You will learn vim by using it and searching what you need.
+Don't try to write down and memorize everything. Focus on understanding and download a cheatsheet later.
 
 
 Where to go next
